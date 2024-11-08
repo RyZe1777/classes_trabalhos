@@ -4,13 +4,14 @@
 #include <iostream>
 using namespace std;
 
+
 class Veiculo {
-    protected: //protected pois pode ser acessada pelos "filhos"
+    protected:
         string nome_veiculo;
 
     public:
         Veiculo(string nome_veiculo);
-        virtual void MostrarDetalhes();  //virtual pois temos que dar overwrite neste metodo
+        virtual void MostrarDetalhes();  // virtual pois temos que dar overwrite neste método
 };
 
 #endif
