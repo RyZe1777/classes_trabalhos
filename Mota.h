@@ -8,7 +8,7 @@ class Mota : public Veiculo {
         int cc;
 
     public:
-        Mota(string nome, int cilindrada);
+        Mota(string nome, int cilindrada); //criaçao do construtor
         virtual void MostrarDetalhes(); 
 };
 
