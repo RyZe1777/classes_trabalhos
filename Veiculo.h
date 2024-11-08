@@ -6,7 +6,7 @@ using namespace std;
 
 
 class Veiculo {
-    protected:
+    protected: //protected pois pode ser acessada pelos "filhos"
         string nome_veiculo;
 
     public:
