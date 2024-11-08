@@ -1,7 +1,7 @@
 #include "Veiculo.h"
 
-Veiculo(string vehicle_name) : vehicle_name(vehicle_name) {}
+Veiculo::Veiculo(string nome_veiculo) : nome_veiculo(nome_veiculo) {}
 
-void Veiculo::mostrarDetalhes() {
-    cout << "Nome do veículo: " << vehicle_name << endl;
+void Veiculo::MostrarDetalhes() { //virtual pois temos que dar overwrite neste metodo
+    cout << "O nome do Veiculo é: " << nome_veiculo << endl;
 }
