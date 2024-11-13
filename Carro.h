@@ -8,7 +8,7 @@ class Carro : public Veiculo {
         int numero_de_portas;
 
     public:
-        Carro(string nome , int portas);
+        Carro(string nome , int portas); //construtor
         virtual void MostrarDetalhes() override;  // vai "duplicar" o original e adicionar atributos // virtual pois temos que dar overwrite neste metodo
 };
 
