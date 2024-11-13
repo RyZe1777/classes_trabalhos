@@ -9,7 +9,7 @@ class Carro : public Veiculo {
 
     public:
         Carro(string nome , int portas);
-        virtual void MostrarDetalhes() override;  // vai "duplicar" o original e adicionar atributos
+        virtual void MostrarDetalhes() override;  // vai "duplicar" o original e adicionar atributos // virtual pois temos que dar overwrite neste metodo
 };
 
 #endif
