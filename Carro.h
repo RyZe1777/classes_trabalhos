@@ -1,5 +1,5 @@
-#ifndef CARRO_H
-#define CARRO_H
+#ifndef CARRO_H //verificar se foi aberto anteriormente
+#define CARRO_H //define caso seja incluido again ignora
 
 #include "Veiculo.h"
 
@@ -12,4 +12,4 @@ class Carro : public Veiculo {
         virtual void MostrarDetalhes() override;  // vai "duplicar" o original e adicionar atributos // virtual pois temos que dar overwrite neste metodo
 };
 
-#endif
+#endif //fecha a protecao
