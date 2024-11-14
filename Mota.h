@@ -9,7 +9,7 @@ class Mota : public Veiculo {
 
     public:
         Mota(string nome, int cilindrada); //criaçao do construtor
-        virtual void MostrarDetalhes(); 
+        virtual void MostrarDetalhes() override; 
 };
 
 #endif
