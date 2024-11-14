@@ -1,6 +1,7 @@
 #include "Carro.h"
 
-Carro::Carro(string nome , int portas) : Veiculo(nome), numero_de_portas(portas) {} //construtor da classe Carro, que inicializa o nome do veículo (construtor da classe Veículo)
+Carro::Carro(string nome , int portas) : Veiculo(nome), numero_de_portas(portas) {} //construtor da classe Carro, que inicializa o 
+                                                                                    //nome do veículo (construtor da classe Veículo)
                                                                                     //e o número de portas.
 
 void Carro::MostrarDetalhes() {
