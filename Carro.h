@@ -1,4 +1,4 @@
-#ifndef CARRO_H //verificar se foi aberto anteriormente
+#ifndef CARRO_H //verificar se identificador foi aberto anteriormente
 #define CARRO_H //define caso seja incluido again ignora
 
 #include "Veiculo.h"
