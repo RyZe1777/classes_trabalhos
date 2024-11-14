@@ -1,5 +1,5 @@
 #ifndef VEICULO_H //verificar se identificador foi aberto anteriormente
- #define VEICULO_H //define caso seja incluido again ignora
+#define VEICULO_H //define caso seja incluido again ignora
 
 #include <iostream>
 using namespace std;
