@@ -1,4 +1,4 @@
-#ifndef MOTA_H
+#ifndef MOTA_H //verificar se identificador foi aberto anteriormente
 #define MOTA_H //verificar se identificador foi aberto anteriormente
 
 #include "Veiculo.h"
@@ -12,4 +12,5 @@ class Mota : public Veiculo {
         virtual void MostrarDetalhes() override; 
 };
 
-#endif
+#endif //fecha a proteçao
+
