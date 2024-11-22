@@ -1,5 +1,5 @@
 #ifndef MOTA_H
-#define MOTA_H
+#define MOTA_H //verificar se identificador foi aberto anteriormente
 
 #include "Veiculo.h"
 
